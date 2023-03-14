@@ -6,4 +6,5 @@ FacebookDataAnalysis.ipynb and TCC.ipynb was used to analyse the data downloaded
 
 pandas_locate.py was used to make the analysis of pre and post pandemic.
 
+Word cloud made after extraction of word orded by number os likes ranking in csv. Tool used: https://worditout.com/word-cloud/create
 
