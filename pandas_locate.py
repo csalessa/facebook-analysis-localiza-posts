@@ -106,10 +106,11 @@ def remove_undesired_words(df):
         "mais", "em", "uma", "na", "E",
         "por", "pra", "as", "se", "seu", "sua",
         ">>", ".",
+        "nesse", "nessa", "nosso",
         "esse", "essa", "pelo", "tem", "A",
         "ao", "so", "dos", "esta", "ou",
         "ate", "sobre", "ser", "ter", "tem", "são", "NaN",
-        "não", "sim", "nao",
+        "não", "sim", "nao", "são", "têm", "você"
     ]
     df = df.dropna()
     return df[~df["word"].isin(black_list)]
